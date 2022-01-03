@@ -1,2 +1,2 @@
-clock: python clock.python
+clock: python clock.py
 worker: python worker.py
