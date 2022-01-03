@@ -14,8 +14,7 @@ q = Queue(connection=conn)
 def execute_program():
     q.enqueue(runProgram())
 
-sched.add_job(execute_program, trigger='cron', hour='7',minute='5')
-
+sched.add_job(execute_program, trigger='cron', hour='6')
 sched.add_job(execute_program, trigger='cron', hour='10')
 sched.add_job(execute_program, trigger='cron', hour='14')
 sched.add_job(execute_program, trigger='cron', hour='18')
