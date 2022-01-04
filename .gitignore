@@ -1,5 +1,5 @@
 .env
 /env
-geckodriver.log
-/drivers
+requirements.txt
 __pycache__
+run.sh
